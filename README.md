@@ -62,6 +62,8 @@ For the overlaps, I got an idea :
   <img src="img/ROVER_during_the_overlaps.png" alt="ROVER_during_the_overlaps" style="border-radius:8px">
 </p>
 
+#### Add a confiance base in the model router
+
 ### Outputs
 
 ![Inside the router](/img/inside_the_router.png)
