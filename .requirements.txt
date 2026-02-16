@@ -1,6 +1,0 @@
-librosa
-torch
-torchaudio
-matplotlib
-numpy
-seaborn

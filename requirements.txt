@@ -1,0 +1,9 @@
+librosa
+torch==2.7.1
+torchaudio==2.7.1
+matplotlib
+numpy
+seaborn
+faster-whisper
+hf_xet
+nvidia-cublas-cu12

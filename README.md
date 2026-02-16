@@ -5,10 +5,10 @@ The goal is to find the best architecture for the best ASR!
 We want to reach: **Efficiency**, **Quickness** and **Frugality**!
 
 Here is the model router architecture idea :
+
 <p align="center">
   <img src="img/Model_Router_V2.png" alt="Model_Router_V2" style="border-radius:8px">
 </p>
-
 
 <details>
 <summary>See the old architecture idea</summary>
@@ -21,41 +21,50 @@ Here is the model router architecture idea :
 ---
 
 ## Router
+
 The goal is to create a Neural Network able to choose the n best models for a specific batch :
 
 ### Inputs :
+
 #### The audio batch :
+
 To link with the Neural Network, we can have some problemes : different resolutions and durations.
 
 Different strategy is possible to solve it :
+
 1. For the resolution :
+
 - Choose a unique frequence (16 kHz) and resample all the audio to this value. But the router will learn some structural noize.
 
 2. For the duration :
+
 - Padding (shorter audio / add some 0 or noize) / Troncation (longer audio / cut) ==> simple but info lost / the duration are similar
 - Window cut (cut audio in fix frame with overlaps) ==> cut during a word ?
-- Time/Frequency features (STFT, Log-Mel spectrogram, MFCC) to have a time * frequency image. ==> imposed a human vision + little info lost
+- Time/Frequency features (STFT, Log-Mel spectrogram, MFCC) to have a time \* frequency image. ==> imposed a human vision + little info lost
 - Global pooling (any cut) ==> crushed the temporal structure
 
 My opinion : Log-Mel spectrogram + CNN + global or attention pulling and fixing the time of each batch with a big overlaps and make a ROVER during this timing
 
 #### Some metadata :
+
 ##### Needed :
+
 - **SNR** (Signal-to-Noise Ratio)
 - **Duration** of the batch
 
 ##### Need to discuss with the group :
+
 - **Languages** (if provided and see how to map)
 - **Resolution** (8Hz (phones) to 44.1 kHz (studio)) ==> + or - robust models
 
-
 ##### Possible :
+
 - **Bit Depth** : (ex: 16-bit, 24-bit) ==> sound dynamics
 - **Field / theme** : (ex: medical, legal, conversation) ==> Simplify the process for the router
 - **Duration** : be less energy-consumption (batch or total ?)
 
-
 #### Idea for the overlaps
+
 For the overlaps, I got an idea :
 
 <p align="center">
@@ -69,12 +78,12 @@ For the overlaps, I got an idea :
 ![Inside the router](/img/inside_the_router.png)
 Let's dive inside the router.
 
-
-We thought of a 2 step classification *(method and model selection)* processed simultaneously.
+We thought of a 2 step classification _(method and model selection)_ processed simultaneously.
 On one side, the router will select the most suitable method based on the input audio batch, with softmax distribution.
 
 On the other side, the router will select one or multiple models from the entire pool of models based on the choosen method :
-- if a method requiring multiple models *(Corrector, Confidence Based Ensemble, Rover, MoE, CoE)*, the router will pick a selection of $n$ models that will be used to process the input batch together.
+
+- if a method requiring multiple models _(Corrector, Confidence Based Ensemble, Rover, MoE, CoE)_, the router will pick a selection of $n$ models that will be used to process the input batch together.
 - if the router choose a single model method, then it will select the more suitable model from the models pool, to process the input batch.
 
 ---
@@ -150,10 +159,9 @@ Model :
 
 </details>
 
-
 ## WER test
-Here is a link for the [WER test](https://huggingface.co/spaces/evaluate-metric/wer) !
 
+Here is a link for the [WER test](https://huggingface.co/spaces/evaluate-metric/wer) !
 
 ## Optimisation of the architecture (after)
 
@@ -169,7 +177,6 @@ Here is a link for the [WER test](https://huggingface.co/spaces/evaluate-metric/
 - Steering
 - Parallelization of the batch, frequency...
 - Diarisation in parallel
-
 
 ---
 
@@ -209,6 +216,48 @@ Here is a link for the [WER test](https://huggingface.co/spaces/evaluate-metric/
    ```bash
    python src/main.py
    ```
+
+---
+
+## 🚀 MVP Implementation - ROVER System
+
+### What is ROVER?
+
+ROVER (Recognizer Output Voting Error Reduction) is a technique that combines multiple speech recognition models to produce more accurate transcriptions through intelligent voting. Instead of relying on a single model, ROVER aligns the outputs of multiple models at the word level and selects the best word based on confidence scores.
+
+### Current Implementation
+
+A functional MVP has been implemented with:
+
+- **Base Model Infrastructure**: Standardized interface for ASR models with JSON output format
+- **Whisper Models**: Support for multiple Whisper variants (tiny, base, small, medium, large-v3)
+- **ROVER Voting System**: Word-level alignment and confidence-weighted voting
+- **Automatic Deduplication**: Removes repetitions and cleans output text
+
+### Quick Start
+
+**Test a single Whisper model:**
+
+```bash
+python models/example_whisper.py
+```
+
+**Test ROVER with 3 models:**
+
+```bash
+python rover/example_rover.py
+```
+
+### Performance Example
+
+Testing with 3 Whisper models on 22s of French audio:
+
+| Model     | Time  | Confidence | Agreement |
+| --------- | ----- | ---------- | --------- |
+| Tiny      | 1.2s  | 76.6%      | -         |
+| Base      | 2.0s  | 82.4%      | -         |
+| Small     | 5.3s  | 91.2%      | -         |
+| **ROVER** | **-** | **~87%**   | **72.2%** |
 
 <!--
 Add confiance in the Router

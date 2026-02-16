@@ -1,0 +1,1622 @@
+{
+  "text": "puis, l'accord sous lequel j'aurai à me prononcer respecte ni le qui avait été par le conseil européen, ni la stratégie de l'union européenne pour la carrière, ni la stratégie de l'union européenne pour les rupes, qui mentionnent tout, explicitement, explicitement la nécessité de l'intégration régionale des rupes au sein du cariforum et la création de marché interrégionales entre deux partis.",
+  "num_models": 3,
+  "models_used": [
+    "whisper-tiny",
+    "whisper-base",
+    "whisper-small"
+  ],
+  "agreement_score": 0.7222222222222222,
+  "num_words": 66,
+  "aligned_words": [
+    {
+      "word": "puis,",
+      "start": 0.0,
+      "end": 0.5066666666666667,
+      "confidence": 0.3679169714450836,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "puis,",
+          "confidence": 0.4309751093387604,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "puis,",
+          "confidence": 0.34749600291252136,
+          "model": "whisper-base"
+        },
+        {
+          "word": "puis,",
+          "confidence": 0.3252798020839691,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "l",
+      "start": 0.9199999999999999,
+      "end": 1.15,
+      "confidence": 0.8924722969532013,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "l",
+          "confidence": 0.8727943301200867,
+          "model": "whisper-base"
+        },
+        {
+          "word": "la",
+          "confidence": 0.6345129013061523,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9121502637863159,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "'accord",
+      "start": 1.15,
+      "end": 1.48,
+      "confidence": 0.9857299327850342,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "'accord",
+          "confidence": 0.9946364164352417,
+          "model": "whisper-small"
+        },
+        {
+          "word": "corps,",
+          "confidence": 0.7298862934112549,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "'accord",
+          "confidence": 0.9768234491348267,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "sous",
+      "start": 1.8133333333333332,
+      "end": 2.526666666666667,
+      "confidence": 0.6730083227157593,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "sous",
+          "confidence": 0.686985433101654,
+          "model": "whisper-base"
+        },
+        {
+          "word": "sous",
+          "confidence": 0.9326915144920349,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "sous",
+          "confidence": 0.39934802055358887,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "lequel",
+      "start": 2.526666666666667,
+      "end": 2.7999999999999994,
+      "confidence": 0.709018329779307,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "lequel",
+          "confidence": 0.7131046652793884,
+          "model": "whisper-base"
+        },
+        {
+          "word": "lequel",
+          "confidence": 0.4185734987258911,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "lequel",
+          "confidence": 0.9953768253326416,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "j",
+      "start": 2.7699999999999996,
+      "end": 3.0,
+      "confidence": 0.6497751027345657,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "j",
+          "confidence": 0.46544167399406433,
+          "model": "whisper-base"
+        },
+        {
+          "word": "'aurais",
+          "confidence": 0.8168925046920776,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "j",
+          "confidence": 0.8341085314750671,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "'aurai",
+      "start": 3.0,
+      "end": 3.16,
+      "confidence": 0.8731776674588522,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "'aurais",
+          "confidence": 0.8139907121658325,
+          "model": "whisper-base"
+        },
+        {
+          "word": "aimer",
+          "confidence": 0.37527599930763245,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "'aurai",
+          "confidence": 0.8731776674588522,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "à",
+      "start": 3.16,
+      "end": 3.24,
+      "confidence": 0.9582828879356384,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "prononcé",
+          "confidence": 0.4004778414964676,
+          "model": "whisper-base"
+        },
+        {
+          "word": "prononcer,",
+          "confidence": 0.6731541156768799,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "à",
+          "confidence": 0.9582828879356384,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "me",
+      "start": 3.24,
+      "end": 3.32,
+      "confidence": 0.9879624247550964,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "me",
+          "confidence": 0.9879624247550964,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "prononcer",
+      "start": 3.32,
+      "end": 3.86,
+      "confidence": 0.9895449876785278,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "prononcer",
+          "confidence": 0.9895449876785278,
+          "model": "whisper-small"
+        },
+        {
+          "word": "ne",
+          "confidence": 0.6774078011512756,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "une",
+          "confidence": 0.41213276982307434,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "respecte",
+      "start": 4.07,
+      "end": 4.66,
+      "confidence": 0.9015881419181824,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "ne",
+          "confidence": 0.9559981226921082,
+          "model": "whisper-small"
+        },
+        {
+          "word": "respecte",
+          "confidence": 0.8683311939239502,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "respecte",
+          "confidence": 0.9348450899124146,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "ni",
+      "start": 4.6,
+      "end": 4.8,
+      "confidence": 0.9918537735939026,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "respecte",
+          "confidence": 0.9965164363384247,
+          "model": "whisper-small"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.9517264366149902,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.7459657192230225,
+          "model": "whisper-base"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.9918537735939026,
+          "model": "whisper-small"
+        },
+        {
+          "word": "le",
+          "confidence": 0.659220278263092,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "l",
+          "confidence": 0.43384549021720886,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "le",
+      "start": 4.76,
+      "end": 5.0,
+      "confidence": 0.9856691360473633,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "le",
+          "confidence": 0.9856691360473633,
+          "model": "whisper-small"
+        },
+        {
+          "word": "mandat",
+          "confidence": 0.7627016305923462,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "'omanda",
+          "confidence": 0.6715740313132604,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "qui",
+      "start": 5.42,
+      "end": 5.66,
+      "confidence": 0.8193598687648773,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "mandat",
+          "confidence": 0.993075042963028,
+          "model": "whisper-small"
+        },
+        {
+          "word": "qui",
+          "confidence": 0.9192513823509216,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "qui",
+          "confidence": 0.719468355178833,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "avait",
+      "start": 5.66,
+      "end": 5.85,
+      "confidence": 0.8570861518383026,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "qui",
+          "confidence": 0.9769079685211182,
+          "model": "whisper-small"
+        },
+        {
+          "word": "avait",
+          "confidence": 0.8978656530380249,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "avait",
+          "confidence": 0.8163066506385803,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "été",
+      "start": 5.824999999999999,
+      "end": 6.08,
+      "confidence": 0.9966512322425842,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "avait",
+          "confidence": 0.9495805501937866,
+          "model": "whisper-small"
+        },
+        {
+          "word": "été",
+          "confidence": 0.8890522718429565,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "été",
+          "confidence": 0.9748156070709229,
+          "model": "whisper-base"
+        },
+        {
+          "word": "été",
+          "confidence": 0.9966512322425842,
+          "model": "whisper-small"
+        },
+        {
+          "word": "fixé",
+          "confidence": 0.847284585237503,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "fixée",
+          "confidence": 0.7911181747913361,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "par",
+      "start": 6.46,
+      "end": 6.64,
+      "confidence": 0.9484317302703857,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "fixé",
+          "confidence": 0.9894289076328278,
+          "model": "whisper-small"
+        },
+        {
+          "word": "par",
+          "confidence": 0.9077906012535095,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "par",
+          "confidence": 0.989072859287262,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "le",
+      "start": 6.64,
+      "end": 6.75,
+      "confidence": 0.7997635304927826,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "par",
+          "confidence": 0.993858277797699,
+          "model": "whisper-small"
+        },
+        {
+          "word": "le",
+          "confidence": 0.6840783357620239,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "le",
+          "confidence": 0.9154487252235413,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "conseil",
+      "start": 6.75,
+      "end": 7.06,
+      "confidence": 0.8352968245744705,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "le",
+          "confidence": 0.9918630123138428,
+          "model": "whisper-small"
+        },
+        {
+          "word": "conseil",
+          "confidence": 0.7606123089790344,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "conseil",
+          "confidence": 0.9099813401699066,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "européen,",
+      "start": 7.06,
+      "end": 7.73,
+      "confidence": 0.9429249167442322,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "conseil",
+          "confidence": 0.9423951506614685,
+          "model": "whisper-small"
+        },
+        {
+          "word": "européen,",
+          "confidence": 0.9066176414489746,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "européen,",
+          "confidence": 0.9792321920394897,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "ni",
+      "start": 8.100000000000001,
+      "end": 8.190000000000001,
+      "confidence": 0.9939173758029938,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "européen,",
+          "confidence": 0.9467126429080963,
+          "model": "whisper-small"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.9943865537643433,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.9934481978416443,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "la",
+      "start": 8.190000000000001,
+      "end": 8.350000000000001,
+      "confidence": 0.829057902097702,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "ni",
+          "confidence": 0.9876497387886047,
+          "model": "whisper-small"
+        },
+        {
+          "word": "la",
+          "confidence": 0.6704491972923279,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9876666069030762,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "stratégie",
+      "start": 8.350000000000001,
+      "end": 8.81,
+      "confidence": 0.9927781224250793,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "la",
+          "confidence": 0.9934664368629456,
+          "model": "whisper-small"
+        },
+        {
+          "word": "stratégie",
+          "confidence": 0.9927797019481659,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "stratégie",
+          "confidence": 0.9927765429019928,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "de",
+      "start": 8.81,
+      "end": 8.95,
+      "confidence": 0.6255301833152771,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "stratégie",
+          "confidence": 0.9828375279903412,
+          "model": "whisper-small"
+        },
+        {
+          "word": "de",
+          "confidence": 0.7203018069267273,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "de",
+          "confidence": 0.5307585597038269,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "l",
+      "start": 8.95,
+      "end": 9.059999999999999,
+      "confidence": 0.9810671806335449,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "de",
+          "confidence": 0.9914562106132507,
+          "model": "whisper-small"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9713005423545837,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9908338189125061,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "'union",
+      "start": 9.059999999999999,
+      "end": 9.18,
+      "confidence": 0.8689424097537994,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "l",
+          "confidence": 0.9962732791900635,
+          "model": "whisper-small"
+        },
+        {
+          "word": "'union",
+          "confidence": 0.8497161467870077,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "'union",
+          "confidence": 0.8881686727205912,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "européenne",
+      "start": 9.18,
+      "end": 9.719999999999999,
+      "confidence": 0.9464815407991409,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "'ue",
+          "confidence": 0.8390205204486847,
+          "model": "whisper-small"
+        },
+        {
+          "word": "européenne",
+          "confidence": 0.9176028966903687,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "européenne",
+          "confidence": 0.9753601849079132,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "pour",
+      "start": 9.533333333333333,
+      "end": 9.853333333333333,
+      "confidence": 0.8304363290468851,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "pour",
+          "confidence": 0.9834045767784119,
+          "model": "whisper-small"
+        },
+        {
+          "word": "pour",
+          "confidence": 0.6333643198013306,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "pour",
+          "confidence": 0.8745400905609131,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "la",
+      "start": 9.853333333333333,
+      "end": 9.966666666666667,
+      "confidence": 0.7563593586285909,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "la",
+          "confidence": 0.8666941523551941,
+          "model": "whisper-base"
+        },
+        {
+          "word": "la",
+          "confidence": 0.8396214246749878,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "la",
+          "confidence": 0.5627624988555908,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "carrière,",
+      "start": 9.969999999999999,
+      "end": 10.34,
+      "confidence": 0.5780312940478325,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "carrière,",
+          "confidence": 0.6393955051898956,
+          "model": "whisper-base"
+        },
+        {
+          "word": "carrière,",
+          "confidence": 0.5166670829057693,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "caraïbe,",
+          "confidence": 0.8706199526786804,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "ni",
+      "start": 10.606666666666667,
+      "end": 10.753333333333332,
+      "confidence": 0.9888077179590861,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "ni",
+          "confidence": 0.9910445213317871,
+          "model": "whisper-base"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.9855391979217529,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "ni",
+          "confidence": 0.9898394346237183,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "la",
+      "start": 10.753333333333332,
+      "end": 10.92,
+      "confidence": 0.9866532484690348,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "la",
+          "confidence": 0.9914451837539673,
+          "model": "whisper-base"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9792147874832153,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9892997741699219,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "stratégie",
+      "start": 10.92,
+      "end": 11.366666666666667,
+      "confidence": 0.9965758820374807,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "stratégie",
+          "confidence": 0.9961728453636169,
+          "model": "whisper-base"
+        },
+        {
+          "word": "stratégie",
+          "confidence": 0.9951094686985016,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "stratégie",
+          "confidence": 0.9984453320503235,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "de",
+      "start": 11.366666666666667,
+      "end": 11.513333333333335,
+      "confidence": 0.8926259080568949,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "de",
+          "confidence": 0.7690004110336304,
+          "model": "whisper-base"
+        },
+        {
+          "word": "de",
+          "confidence": 0.9144008159637451,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "de",
+          "confidence": 0.9944764971733093,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "l",
+      "start": 11.513333333333335,
+      "end": 11.659999999999998,
+      "confidence": 0.9974148869514465,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "l",
+          "confidence": 0.9972104430198669,
+          "model": "whisper-base"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9973276853561401,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9977065324783325,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "'union",
+      "start": 11.7,
+      "end": 11.760000000000002,
+      "confidence": 0.9910999735196431,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "'ue",
+          "confidence": 0.995129257440567,
+          "model": "whisper-small"
+        },
+        {
+          "word": "'union",
+          "confidence": 0.9909708897272745,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "'union",
+          "confidence": 0.9912290573120117,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "européenne",
+      "start": 11.760000000000002,
+      "end": 12.21,
+      "confidence": 0.9941686242818832,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "européenne",
+          "confidence": 0.9918694794178009,
+          "model": "whisper-base"
+        },
+        {
+          "word": "européenne",
+          "confidence": 0.9964677691459656,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "pour",
+          "confidence": 0.9934446811676025,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "pour",
+      "start": 12.21,
+      "end": 12.36,
+      "confidence": 0.9767189025878906,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "pour",
+          "confidence": 0.9888707995414734,
+          "model": "whisper-base"
+        },
+        {
+          "word": "pour",
+          "confidence": 0.9645670056343079,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "les",
+          "confidence": 0.9846436977386475,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "les",
+      "start": 12.36,
+      "end": 12.469999999999999,
+      "confidence": 0.8664149045944214,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "les",
+          "confidence": 0.9505801200866699,
+          "model": "whisper-base"
+        },
+        {
+          "word": "les",
+          "confidence": 0.7822496891021729,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "rupes,",
+          "confidence": 0.7204950451850891,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "rupes,",
+      "start": 12.469999999999999,
+      "end": 13.120000000000001,
+      "confidence": 0.5840984558065732,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "rupes,",
+          "confidence": 0.6671679317951202,
+          "model": "whisper-base"
+        },
+        {
+          "word": "rupes,",
+          "confidence": 0.5010289798180262,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "qui",
+          "confidence": 0.9918004870414734,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "qui",
+      "start": 13.280000000000001,
+      "end": 13.370000000000001,
+      "confidence": 0.9731939136981964,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "qui",
+          "confidence": 0.985908567905426,
+          "model": "whisper-base"
+        },
+        {
+          "word": "qui",
+          "confidence": 0.9604792594909668,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "mentionne",
+          "confidence": 0.9700068831443787,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "mentionnent",
+      "start": 13.370000000000001,
+      "end": 13.870000000000001,
+      "confidence": 0.6827196329832077,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "mentionnent",
+          "confidence": 0.8671214282512665,
+          "model": "whisper-base"
+        },
+        {
+          "word": "mentionnent",
+          "confidence": 0.4983178377151489,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "tout",
+          "confidence": 0.9819507598876953,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "tout,",
+      "start": 13.84,
+      "end": 14.04,
+      "confidence": 0.9038299918174744,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "tout,",
+          "confidence": 0.9038299918174744,
+          "model": "whisper-base"
+        },
+        {
+          "word": "tout",
+          "confidence": 0.8202901482582092,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "toi,",
+          "confidence": 0.6650629043579102,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "explicitement,",
+      "start": 14.6,
+      "end": 15.5,
+      "confidence": 0.9709717333316803,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "-toi,",
+          "confidence": 0.596844881772995,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "toi,",
+          "confidence": 0.8571857213973999,
+          "model": "whisper-base"
+        },
+        {
+          "word": "explicitement,",
+          "confidence": 0.9709717333316803,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "explicitement",
+      "start": 14.62,
+      "end": 15.48,
+      "confidence": 0.8626547455787659,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "explicitement",
+          "confidence": 0.8626547455787659,
+          "model": "whisper-base"
+        },
+        {
+          "word": "explicitement,",
+          "confidence": 0.5916348099708557,
+          "model": "whisper-tiny"
+        }
+      ]
+    },
+    {
+      "word": "la",
+      "start": 15.793333333333335,
+      "end": 16.006666666666664,
+      "confidence": 0.7911230226357778,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "la",
+          "confidence": 0.44104310870170593,
+          "model": "whisper-base"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9369230270385742,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9954029321670532,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "nécessité",
+      "start": 16.006666666666664,
+      "end": 16.586666666666666,
+      "confidence": 0.9889414409796397,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "nécessité",
+          "confidence": 0.9875046908855438,
+          "model": "whisper-base"
+        },
+        {
+          "word": "nécessité",
+          "confidence": 0.9804234206676483,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "nécessité",
+          "confidence": 0.9988962113857269,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "de",
+      "start": 16.586666666666666,
+      "end": 16.72,
+      "confidence": 0.973599890867869,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "de",
+          "confidence": 0.9843403100967407,
+          "model": "whisper-base"
+        },
+        {
+          "word": "de",
+          "confidence": 0.9446204900741577,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "de",
+          "confidence": 0.9918388724327087,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "l",
+      "start": 16.72,
+      "end": 16.87333333333333,
+      "confidence": 0.9899416168530782,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "l",
+          "confidence": 0.9986000657081604,
+          "model": "whisper-base"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9753128290176392,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "l",
+          "confidence": 0.9959119558334351,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "'intégration",
+      "start": 16.84,
+      "end": 17.35,
+      "confidence": 0.858264397829771,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "'intégration",
+          "confidence": 0.9609430432319641,
+          "model": "whisper-small"
+        },
+        {
+          "word": "'intération",
+          "confidence": 0.6528453727563223,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "'intégration",
+          "confidence": 0.755585752427578,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "régionale",
+      "start": 17.373333333333335,
+      "end": 17.89333333333333,
+      "confidence": 0.844602182507515,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "régionale",
+          "confidence": 0.899049699306488,
+          "model": "whisper-base"
+        },
+        {
+          "word": "régionale",
+          "confidence": 0.690746858716011,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "régionale",
+          "confidence": 0.9440099895000458,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "des",
+      "start": 17.89333333333333,
+      "end": 18.066666666666666,
+      "confidence": 0.9698660572369894,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "des",
+          "confidence": 0.9646952748298645,
+          "model": "whisper-base"
+        },
+        {
+          "word": "des",
+          "confidence": 0.9475084543228149,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "des",
+          "confidence": 0.9973944425582886,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "rupes",
+      "start": 18.066666666666666,
+      "end": 18.326666666666668,
+      "confidence": 0.9629347523053488,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "rupes",
+          "confidence": 0.9748079180717468,
+          "model": "whisper-base"
+        },
+        {
+          "word": "rupes",
+          "confidence": 0.9664417306582133,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "rupes",
+          "confidence": 0.9475546081860861,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "au",
+      "start": 18.32,
+      "end": 18.48,
+      "confidence": 0.9383454620838165,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "au",
+          "confidence": 0.9200894236564636,
+          "model": "whisper-base"
+        },
+        {
+          "word": "sein",
+          "confidence": 0.5581628084182739,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "au",
+          "confidence": 0.9566015005111694,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "sein",
+      "start": 18.48,
+      "end": 18.64,
+      "confidence": 0.9643564224243164,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "sein",
+          "confidence": 0.9325639009475708,
+          "model": "whisper-base"
+        },
+        {
+          "word": "du",
+          "confidence": 0.9927942156791687,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "sein",
+          "confidence": 0.996148943901062,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "du",
+      "start": 18.64,
+      "end": 18.8,
+      "confidence": 0.9934583306312561,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "du",
+          "confidence": 0.9915317893028259,
+          "model": "whisper-base"
+        },
+        {
+          "word": "carif",
+          "confidence": 0.6368652582168579,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "du",
+          "confidence": 0.9953848719596863,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "cariforum",
+      "start": 18.8,
+      "end": 19.6,
+      "confidence": 0.554811704903841,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "cariforom",
+          "confidence": 0.41765177994966507,
+          "model": "whisper-base"
+        },
+        {
+          "word": "cariforum",
+          "confidence": 0.554811704903841,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "et",
+      "start": 19.68,
+      "end": 20.006666666666664,
+      "confidence": 0.8238691091537476,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "et",
+          "confidence": 0.7250409722328186,
+          "model": "whisper-base"
+        },
+        {
+          "word": "et",
+          "confidence": 0.9726154804229736,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "et",
+          "confidence": 0.7739508748054504,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "la",
+      "start": 20.006666666666664,
+      "end": 20.14,
+      "confidence": 0.9861777424812317,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "la",
+          "confidence": 0.9903762936592102,
+          "model": "whisper-base"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9772952795028687,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "la",
+          "confidence": 0.9908616542816162,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "création",
+      "start": 20.1,
+      "end": 20.5,
+      "confidence": 0.9886156618595123,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "réace",
+          "confidence": 0.4231294319033623,
+          "model": "whisper-base"
+        },
+        {
+          "word": "réaction",
+          "confidence": 0.6077335029840469,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "création",
+          "confidence": 0.9886156618595123,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "de",
+      "start": 20.513333333333335,
+      "end": 20.713333333333335,
+      "confidence": 0.9227795998255411,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "de",
+          "confidence": 0.8123376369476318,
+          "model": "whisper-base"
+        },
+        {
+          "word": "de",
+          "confidence": 0.9887239933013916,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "de",
+          "confidence": 0.9672771692276001,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "marché",
+      "start": 20.740000000000002,
+      "end": 21.07,
+      "confidence": 0.5990519821643829,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "marchés",
+          "confidence": 0.5259931534528732,
+          "model": "whisper-base"
+        },
+        {
+          "word": "marché",
+          "confidence": 0.5435192584991455,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "marché",
+          "confidence": 0.6545847058296204,
+          "model": "whisper-small"
+        }
+      ]
+    },
+    {
+      "word": "interrégionales",
+      "start": 21.1,
+      "end": 21.9,
+      "confidence": 0.7686704397201538,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "inter",
+          "confidence": 0.6554277539253235,
+          "model": "whisper-small"
+        },
+        {
+          "word": "interrigional",
+          "confidence": 0.3719213902950287,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "interrégionales",
+          "confidence": 0.7686704397201538,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "entre",
+      "start": 21.88,
+      "end": 22.05,
+      "confidence": 0.6851557493209839,
+      "vote_count": 2,
+      "candidates": [
+        {
+          "word": "-régional",
+          "confidence": 0.8040744438767433,
+          "model": "whisper-small"
+        },
+        {
+          "word": "entre",
+          "confidence": 0.8053610324859619,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "entre",
+          "confidence": 0.5649504661560059,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "deux",
+      "start": 22.213333333333335,
+      "end": 22.386666666666667,
+      "confidence": 0.9838621020317078,
+      "vote_count": 3,
+      "candidates": [
+        {
+          "word": "entre",
+          "confidence": 0.9740418195724487,
+          "model": "whisper-small"
+        },
+        {
+          "word": "deux",
+          "confidence": 0.9838621020317078,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "ces",
+          "confidence": 0.9113050103187561,
+          "model": "whisper-base"
+        },
+        {
+          "word": "ces",
+          "confidence": 0.970127284526825,
+          "model": "whisper-small"
+        },
+        {
+          "word": "parties.",
+          "confidence": 0.872795045375824,
+          "model": "whisper-tiny"
+        },
+        {
+          "word": "deux",
+          "confidence": 0.9802332520484924,
+          "model": "whisper-base"
+        },
+        {
+          "word": "deux",
+          "confidence": 0.9486091732978821,
+          "model": "whisper-small"
+        },
+        {
+          "word": "parties.",
+          "confidence": 0.9419788718223572,
+          "model": "whisper-base"
+        }
+      ]
+    },
+    {
+      "word": "partis.",
+      "start": 22.36,
+      "end": 22.72,
+      "confidence": 0.43932121992111206,
+      "vote_count": 1,
+      "candidates": [
+        {
+          "word": "partis.",
+          "confidence": 0.43932121992111206,
+          "model": "whisper-small"
+        }
+      ]
+    }
+  ]
+}
