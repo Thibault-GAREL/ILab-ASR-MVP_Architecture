@@ -214,3 +214,15 @@ Here is a link for the [WER test](https://huggingface.co/spaces/evaluate-metric/
 Add confiance in the Router
 
 -->
+
+---
+
+## 📖 Inspiration / Sources
+This project is based on:
+- 📄 [ROVER Algorithm (NIST)](https://ieeexplore.ieee.org/document/659110/) — Fiscus, 1997
+- 🤗 [Whisper (OpenAI)](https://github.com/openai/whisper) and [faster-whisper](https://github.com/guillaumekln/faster-whisper)
+- 🟢 [NVIDIA Canary](https://developer.nvidia.com/blog/new-standard-for-speech-recognition-and-translation-from-the-nvidia-nemo-canary-model/)
+- 🗣️ [Pyannote.audio](https://github.com/pyannote/pyannote-audio)
+- 🏆 [Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
+
+Code created by [Alfred](https://github.com/Alfred0404) and me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL)
